@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+
+    //husk
     const defaultItem = Array.from(navItems).find(nav => nav.textContent === "HTML");
     if (defaultItem) {
         setActive(defaultItem);
