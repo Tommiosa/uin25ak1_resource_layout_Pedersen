@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Ved innlasting, set fanen HTML som standard
     const defaultItem = Array.from(navItems).find(nav => nav.textContent === "HTML");
     if (defaultItem) {
         setActive(defaultItem);
